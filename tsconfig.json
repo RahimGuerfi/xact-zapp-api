@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es2017",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "skipLibCheck": true,
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "strictBindCallApply": false,
+    "forceConsistentCasingInFileNames": false,
+    "noFallthroughCasesInSwitch": false,
+    "paths": {
+      "@xact-checkout/api/config": [
+        "libs/api/config/src"
+      ],
+      "@xact-checkout/api/config/*": [
+        "libs/api/config/src/*"
+      ],
+      "@xact-checkout/api/configuration": [
+        "libs/api/configuration/src"
+      ],
+      "@xact-checkout/api/configuration/*": [
+        "libs/api/configuration/src/*"
+      ],
+      "@xact-checkout/api/sdk": [
+        "libs/api/sdk/src"
+      ],
+      "@xact-checkout/api/sdk/*": [
+        "libs/api/sdk/src/*"
+      ]
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "moduleFileExtensions": [
+    "js",
+    "json",
+    "ts"
+  ],
+  "rootDir": ".",
+  "testEnvironment": "node",
+  "testRegex": ".e2e-spec.ts$",
+  "transform": {
+    "^.+\\.(t|j)s$": "ts-jest"
+  },
+  "moduleNameMapper": {
+    "@xact-checkout/test-lib/(.*)": "<rootDir>/../libs/test-lib/src/$1",
+    "@xact-checkout/test-lib": "<rootDir>/../libs/test-lib/src",
+    "@xact-checkout/api/config/(.*)": "<rootDir>/../libs/api/config/src/$1",
+    "@xact-checkout/api/config": "<rootDir>/../libs/api/config/src",
+    "@xact-checkout/api/configuration/(.*)": "<rootDir>/../libs/api/configuration/src/$1",
+    "@xact-checkout/api/configuration": "<rootDir>/../libs/api/configuration/src",
+    "@xact-checkout/api/sdk/(.*)": "<rootDir>/../libs/api/sdk/src/$1",
+    "@xact-checkout/api/sdk": "<rootDir>/../libs/api/sdk/src"
+  }
+}
